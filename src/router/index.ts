@@ -4,6 +4,7 @@ import type {RouteRecordRaw} from 'vue-router'
 
 const routes: Array<RouteRecordRaw> = [
   { path: '/', component: () => import('@/views/Home/index.vue') },
+  //路由问题/video/:id
   { path: '/video/id',component: ()=> import('@/views/Video/index.vue')}
 ]
 
